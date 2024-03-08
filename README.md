@@ -36,6 +36,9 @@ from module name import Name
 Name.show()
 ```
 
+___
+
+
 ### Block
 ***Python***
 ```python
@@ -56,6 +59,9 @@ for x in [1,2,3]{
   print(x)
 }
 ```
+
+___
+
 
 ### Dict Access
 ***Python***
@@ -84,7 +90,11 @@ words = {
 print(words.w1)
 ```
 
+___
+
+
 ### Interface
+***YourPy***
 ```python
 # ypy:compile
 
