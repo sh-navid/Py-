@@ -13,6 +13,7 @@ print("YPY")
 ## Features
 
 ### Module Import
+<!-- 1 -->
 Imagine this directory structure
 
 - dir
@@ -40,6 +41,7 @@ ___
 
 
 ### Block
+<!-- 2 -->
 ***Python***
 ```python
 for x in [1,2,3]:
@@ -64,6 +66,7 @@ ___
 
 
 ### Dict Access
+<!-- 3 -->
 ***Python***
 ```python
 words = {
@@ -94,6 +97,7 @@ ___
 
 
 ### Interface
+<!-- 4 -->
 ***YourPy***
 ```python
 # ypy:compile
@@ -109,3 +113,60 @@ class Factory:
     def make(self, a:int, b:int, c:str)->bool:    
         pass
 ```
+
+___
+
+
+### Function
+<!-- 5 -->
+***Python***
+```python
+func = lambda a: print(a)
+
+func = lambda a, b: print(a, b)
+```
+
+***YourPy***
+```python
+func = a: print(a)
+
+func = a, b: print(a, b)
+```
+
+___
+
+
+### Ternary
+<!-- 6 -->
+***Python***
+```python
+a = "low" if True else "high"
+```
+
+***YourPy***
+```python
+a = True ? "low" : "high"
+
+a = if True "low" else "high"
+```
+
+### Multiple Condition
+<!-- 7 -->
+***Python***
+```python
+if 1:
+    a = "One"
+elif 2:
+    a = "Two"
+elif 2:
+    a = "Three"
+else:
+    a = "Other"
+
+```
+
+***YourPy***
+```python
+a = ? 1 : "One", 2 : "Two", 3 : "Three", "Other"
+```
+
