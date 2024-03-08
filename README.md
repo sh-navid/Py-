@@ -1,4 +1,5 @@
 # YourPy
+An engine to append some simple features to the default python interface
 
 ## File
 Simple example of YourPy
@@ -26,7 +27,7 @@ from dir.sub1.sub2.name import Name
 Name.show()
 ```
 
-**YourPy**
+***YourPy***
 ```python
 # ypy:compile
 
@@ -81,4 +82,20 @@ words = {
 }
 
 print(words.w1)
+```
+
+### Interface
+```python
+# ypy:compile
+
+interface IFactory:
+    show(str)->str
+    make(int,int,str)->bool
+
+class Factory:
+    def show(self, a:str)->str:    
+        pass
+
+    def make(self, a:int, b:int, c:str)->bool:    
+        pass
 ```
