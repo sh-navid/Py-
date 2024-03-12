@@ -103,7 +103,7 @@ interface IFactory:
     show(str)->str
     make(int,int,str)->bool
 
-class Factory:
+class Factory => IFactory(){
     def show(self, a:str)->str:    
         pass
 
