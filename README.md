@@ -1,8 +1,8 @@
-# YourPy
+# Py++
 An engine to append some simple features to the default python interface
 
 ## File
-Simple example of YourPy
+Simple example of Py++
 
 ```python
 # ypy:compile
@@ -28,7 +28,7 @@ from dir.sub1.sub2.name import Name
 Name.show()
 ```
 
-***YourPy***
+***Py++***
 ```python
 # ypy:compile
 
@@ -47,7 +47,7 @@ for x in [1,2,3]:
   print(x)
 ```
 
-***YourPy***
+***Py++***
 ```python
 # ypy:compile
 
@@ -77,7 +77,7 @@ words = {
 print(words["w1"])
 ```
 
-***YourPy***
+***Py++***
 ```python
 # ypy:compile
 
@@ -95,7 +95,7 @@ ___
 
 
 ### 4. Interface
-***YourPy***
+***Py++***
 ```python
 # ypy:compile
 
@@ -122,7 +122,7 @@ func = lambda a: print(a)
 func = lambda a, b: print(a, b)
 ```
 
-***YourPy***
+***Py++***
 ```python
 func = a: print(a)
 
@@ -138,12 +138,15 @@ ___
 a = "low" if True else "high"
 ```
 
-***YourPy***
+***Py++***
 ```python
 a = True ? "low" : "high"
 
 a = if True "low" else "high"
 ```
+
+___
+
 
 ### 7. Multiple Condition
 ***Python***
@@ -159,10 +162,13 @@ else:
 
 ```
 
-***YourPy***
+***Py++***
 ```python
 a = ? 1 : "One", 2 : "Two", 3 : "Three", "Other"
 ```
+
+___
+
 
 ### 8. Callback
 ***python***
@@ -177,7 +183,7 @@ def callback(data):
 event(callback)
 ```
 
-***YourPy***
+***Py++***
 ```python
 def event(callback):
     print("Event")
@@ -185,4 +191,23 @@ def event(callback):
 
 event(data):
     print("Callback:",data)
+```
+
+___
+
+### 9. Property
+***python***
+```python
+@property
+def [NAME](self):
+    return self._[NAME]
+
+@[NAME].setter
+def [NAME](self, [NAME]):
+    self._[NAME] = [NAME]
+```
+
+***Py++***
+```python
+prop [NAME] = "default value"
 ```
