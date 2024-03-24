@@ -1,14 +1,18 @@
-# Py++
+# PyN
 An engine to append some simple features to the default python interface
 
 ## File
-Simple example of Py++
+Simple example of PyN
 
 ```python
 # ypy:compile
 
 print("YPY")
 ```
+
+## Tasks
+- [ ] Create custom syntax highlighting for vscode
+- [ ] TextMate ??
 
 ## Features
 
@@ -28,11 +32,11 @@ from dir.sub1.sub2.name import Name
 Name.show()
 ```
 
-***Py++***
+***PyN***
 ```python
 # ypy:compile
 
-from module name import Name
+with name import Name
 
 Name.show()
 ```
@@ -47,7 +51,7 @@ for x in [1,2,3]:
   print(x)
 ```
 
-***Py++***
+***PyN***
 ```python
 # ypy:compile
 
@@ -77,7 +81,7 @@ words = {
 print(words["w1"])
 ```
 
-***Py++***
+***PyN***
 ```python
 # ypy:compile
 
@@ -95,7 +99,7 @@ ___
 
 
 ### 4. Interface
-***Py++***
+***PyN***
 ```python
 # ypy:compile
 
@@ -122,7 +126,7 @@ func = lambda a: print(a)
 func = lambda a, b: print(a, b)
 ```
 
-***Py++***
+***PyN***
 ```python
 func = a: print(a)
 
@@ -138,7 +142,7 @@ ___
 a = "low" if True else "high"
 ```
 
-***Py++***
+***PyN***
 ```python
 a = True ? "low" : "high"
 
@@ -162,7 +166,7 @@ else:
 
 ```
 
-***Py++***
+***PyN***
 ```python
 a = ? 1 : "One", 2 : "Two", 3 : "Three", "Other"
 ```
@@ -183,7 +187,7 @@ def callback(data):
 event(callback)
 ```
 
-***Py++***
+***PyN***
 ```python
 def event(callback):
     print("Event")
@@ -207,7 +211,7 @@ def [NAME](self, [NAME]):
     self._[NAME] = [NAME]
 ```
 
-***Py++***
+***PyN***
 ```python
 prop [NAME] = "default value"
 ```
