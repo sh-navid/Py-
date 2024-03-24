@@ -1,0 +1,15 @@
+
+# ypy:compile
+
+
+# Instead of something like this:
+"""
+from dir.sub1.sub2.name import Name
+
+Name.show()
+"""
+
+# We can write this
+with name import Name
+
+Name.show()
