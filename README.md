@@ -215,3 +215,21 @@ def [NAME](self, [NAME]):
 ```python
 prop [NAME] = "default value"
 ```
+
+___
+
+### 10. HTML
+***PyN***
+```python
+def test():
+    return "Test"
+
+def view():
+    return  <>
+                <body>
+                    <center>
+                        {test()}
+                    <center>
+                </body>
+            <>
+```
