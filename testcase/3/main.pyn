@@ -1,4 +1,4 @@
-# ypy:compile
+# pyn:compile
 
 words = {
     w1: "word1",
