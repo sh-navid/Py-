@@ -32,13 +32,6 @@ ___
 
 
 ### 2. Block
-***Python***
-```python
-for x in [1,2,3]:
-  print(x)
-```
-
-***PyN***
 ```python
 # pyn:compile
 
