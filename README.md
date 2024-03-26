@@ -5,9 +5,9 @@ An engine to append some simple features to the default python interface
 Simple example of PyN
 
 ```python
-# ypy:compile
+# pyn:compile
 
-print("YPY")
+print("PyN")
 ```
 
 ## Tasks
@@ -34,7 +34,7 @@ Name.show()
 
 ***PyN***
 ```python
-# ypy:compile
+# pyn:compile
 
 with name import Name
 
@@ -53,7 +53,7 @@ for x in [1,2,3]:
 
 ***PyN***
 ```python
-# ypy:compile
+# pyn:compile
 
 for x in [1,2,3]:
   print(x)
@@ -83,7 +83,7 @@ print(words["w1"])
 
 ***PyN***
 ```python
-# ypy:compile
+# pyn:compile
 
 words = {
     w1: "word1",
@@ -101,13 +101,13 @@ ___
 ### 4. Interface
 ***PyN***
 ```python
-# ypy:compile
+# pyn:compile
 
 interface IFactory:
     show(str)->str
     make(int,int,str)->bool
 
-class Factory:
+class Factory with IFactory:
     def show(self, a:str)->str:    
         pass
 
