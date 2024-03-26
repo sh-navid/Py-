@@ -1,15 +1,20 @@
 # pyn:compile
 
+
 def test():
     return "Test"
 
+
 def view():
-    return  '''
+    return (
+            """
                 <body>
                     <center>
-                        '''+test()+'''
+                        """ + test() + """
                     <center>
                 </body>
-            '''
-    
+            """
+    )
+
+
 print(view())

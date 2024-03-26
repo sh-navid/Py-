@@ -3,23 +3,19 @@ import os
 
 
 class File:
-    def find(filename, path='.'):
+    def find(filename, path="."):
         for root, dirs, files in os.walk(path):
             if filename in files:
                 return os.path.join(root, filename)
         return None
-    
+
     def read(path):
-        with open(path,"r") as f:
+        with open(path, "r") as f:
             return f.read()
-        
-    def write(path,content):
-        with open(path,"w") as f:
+
+    def write(path, content):
+        with open(path, "w") as f:
             f.write(content)
-
-    
-
-    
 
 
 class DynamicImport:
@@ -31,14 +27,9 @@ class DynamicImport:
             (module, imports) = match
             print(module, imports)
 
-            result = File.find(f'{module}.py')
+            result = File.find(f"{module}.py")
             if not result:
                 ImportError("Cannot find module '{module}'")
-
-                
-
-
-    
 
 
 class Compiler:
