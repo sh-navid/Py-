@@ -236,21 +236,7 @@ def view():
 
 ___
 
-### 11. ?
-***PyN***
-```python
-x = None
-
-y = x or "Nothing"
-
-# ...
-
-y = x or t or m or u
-```
-
-___
-
-### 12. Increment, Decrement
+### 11. Increment, Decrement
 ***PyN***
 ```python
 x = 1
