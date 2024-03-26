@@ -97,15 +97,15 @@ ___
 
 
 ### 5. Function
-***Python***
 ```python
+# pyn:compile
+
 func = lambda a: print(a)
 
 func = lambda a, b: print(a, b)
-```
 
-***PyN***
-```python
+# or
+
 func = a: print(a)
 
 func = a, b: print(a, b)
@@ -115,13 +115,12 @@ ___
 
 
 ### 6. Ternary
-***Python***
+
 ```python
 a = "low" if True else "high"
-```
 
-***PyN***
-```python
+# or 
+
 a = True ? "low" : "high"
 
 a = if True "low" else "high"
