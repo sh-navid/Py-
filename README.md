@@ -117,6 +117,8 @@ ___
 ### 6. Ternary
 
 ```python
+# pyn:compile
+
 a = "low" if True else "high"
 
 # or 
@@ -131,6 +133,8 @@ ___
 
 ### 7. Multiple Condition
 ```python
+# pyn:compile
+
 if 1:
     a = "A"
 elif 2:
@@ -150,6 +154,8 @@ ___
 
 ### 8. Callback
 ```python
+# pyn:compile
+
 def event(callback):
     print("Event")
     callback("data")
@@ -172,6 +178,8 @@ ___
 ### 9. Property
 ***python***
 ```python
+# pyn:compile
+
 @property
 def [NAME](self):
     return self._[NAME]
@@ -191,6 +199,8 @@ ___
 ### 10. HTML
 ***PyN***
 ```python
+# pyn:compile
+
 def test():
     return "Test"
 
@@ -209,6 +219,8 @@ ___
 ### 11. Increment, Decrement
 ***PyN***
 ```python
+# pyn:compile
+
 x = 1
 x++
 x--
