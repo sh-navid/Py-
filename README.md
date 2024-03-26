@@ -130,22 +130,19 @@ ___
 
 
 ### 7. Multiple Condition
-***Python***
 ```python
 if 1:
-    a = "One"
+    a = "A"
 elif 2:
-    a = "Two"
+    a = "B"
 elif 2:
-    a = "Three"
+    a = "C"
 else:
-    a = "Other"
+    a = "D"
 
-```
+# or
 
-***PyN***
-```python
-a = ? 1 : "One", 2 : "Two", 3 : "Three", "Other"
+a ?= 1 : "A", 2 : "B", 3 : "C", "D"
 ```
 
 ___
