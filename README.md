@@ -38,7 +38,7 @@ ___
 for x in [1,2,3]:
   print(x)
 
-# and
+# or
 
 for x in [1,2,3]{
   print(x)
@@ -49,8 +49,9 @@ ___
 
 
 ### 3. Dict Access
-***Python***
 ```python
+# pyn:compile
+
 words = {
     "w1": "word1",
     "w2": "word2",
@@ -59,13 +60,10 @@ words = {
 }
 
 print(words["w1"])
-```
 
-***PyN***
-```python
-# pyn:compile
+# or
 
-words = {
+words = @{
     w1: "word1",
     w2: "word2",
     w3: "word3",
