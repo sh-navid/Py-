@@ -213,7 +213,6 @@ def view():
 ___
 
 ### 11. Increment, Decrement
-***PyN***
 ```python
 # pyn:compile
 
