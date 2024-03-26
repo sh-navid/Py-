@@ -149,23 +149,19 @@ ___
 
 
 ### 8. Callback
-***python***
 ```python
 def event(callback):
     print("Event")
     callback("data")
+
+# then
 
 def callback(data):
     print("Callback:",data)
 
 event(callback)
-```
 
-***PyN***
-```python
-def event(callback):
-    print("Event")
-    callback("data")
+# or
 
 event(data):
     print("Callback:",data)
