@@ -194,7 +194,6 @@ prop name = "default value"
 ___
 
 ### 10. HTML
-***PyN***
 ```python
 # pyn:compile
 
