@@ -17,28 +17,15 @@ print("PyN")
 ## Features
 
 ### 1. Module Import
-<!-- 1 -->
-Imagine this directory structure
-
-- dir
-  - sub1
-    - sub2
-      - `name.py`
-
-***Python***
-```python
-from dir.sub1.sub2.name import Name
-
-Name.show()
-```
-
-***PyN***
 ```python
 # pyn:compile
 
+from dir.sub1.sub2.name import Name
+
+# or
+
 with name import Name
 
-Name.show()
 ```
 
 ___
