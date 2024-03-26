@@ -176,22 +176,19 @@ event(data):
 ___
 
 ### 9. Property
-***python***
 ```python
 # pyn:compile
 
 @property
-def [NAME](self):
-    return self._[NAME]
+def name(self):
+    return self._name
 
-@[NAME].setter
-def [NAME](self, [NAME]):
-    self._[NAME] = [NAME]
-```
+@name.setter
+def name(self, name):
+    self._name = name
+# or
 
-***PyN***
-```python
-prop [NAME] = "default value"
+prop name = "default value"
 ```
 
 ___
