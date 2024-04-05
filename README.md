@@ -12,7 +12,10 @@ print("PyN")
 
 ## Tasks
 - [ ] Create custom syntax highlighting for vscode
+
+## Check These
 - [ ] TextMate ??
+- [ ] [PyLint](https://www.codeac.io/documentation/pylint-configuration.html) ??
 
 ## Features
 
@@ -220,3 +223,9 @@ x = 1
 x++
 x--
 ```
+
+## Modules
+### Table
+1. Export to Text
+1. Export to MD
+1. Export to Bitmap
